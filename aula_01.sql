@@ -11,7 +11,7 @@ create table estado (
     id_pais number
 );
  
-alter table estad add primary key (id_estado);
+alter table estado add primary key (id_estado);
 alter table estado add constraint fk_estado foreign key (id_pais) references pais (id_pais);
  
 create table cidade (
@@ -45,6 +45,6 @@ id_bairro number
  
 alter table endereco_cliente add primary key (id_endereco);
  
-alter table endereco_cliente add constraint fk_bairro foreign key (id_bairro) references endereco_cliente (id_bairro);
+alter table endereco_cliente add constraint fk_bairro foreign key (id_bairro) references bairro (id_bairro);
  
 

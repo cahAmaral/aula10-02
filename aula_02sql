@@ -1,0 +1,31 @@
+INSERT INTO Pais VALUES (1,'China');
+INSERT INTO Pais VALUES (2,'Belgica');
+INSERT INTO Pais VALUES (3,'Japao');
+INSERT INTO Pais VALUES (4,'Brasil');
+INSERT INTO Pais VALUES (5,'Maldivas');
+
+INSERT INTO estado VALUES (1,'Rio de janeiro', 4);
+INSERT INTO estado VALUES (2,'Maranhao', 4);
+INSERT INTO estado VALUES (3,'Bahia', 4);
+INSERT INTO estado VALUES (4,'Amazonas', 4);
+INSERT INTO estado VALUES (5,'Sao paulo', 4);
+
+INSERT INTO cidade VALUES (1,'Maua', 5);
+INSERT INTO cidade VALUES (2,'Santo André', 5);
+INSERT INTO cidade VALUES (3,'Sao Bernardo do campo', 5);
+INSERT INTO cidade VALUES (4,'Sao Caetano do sul', 5);
+INSERT INTO cidade VALUES (5,'Sao Jose do Campos', 5);
+
+INSERT INTO bairro VALUES (1,'Jardim Sonia Maria',1);
+INSERT INTO bairro VALUES (2,'Jardim Silvia Maria',2);
+INSERT INTO bairro VALUES (3,'Parque Jaçatuba',2);
+INSERT INTO bairro VALUES (4,'Parque das Nações',2);
+INSERT INTO bairro VALUES (5,'Aquarius',5);
+
+INSERT INTO endereco_cliente VALUES (1,09300250,'Rua da Uniao',459, '',1);
+INSERT INTO endereco_cliente VALUES(2,09380320,'Rua Zequinha De Abreu',355,'',2);
+INSERT INTO endereco_cliente VALUES(3,09726390,'Rua Marli',26,'',3);
+INSERT INTO endereco_cliente VALUES(4,09210060,'Rua Inglaterra',341,'',4);
+INSERT INTO endereco_cliente VALUES(5,12246875,'Rua Jesus Garcia',112,'',5);
+
+COMMIT;
